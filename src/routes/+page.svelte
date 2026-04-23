@@ -2,7 +2,7 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Card from '$lib/components/Card.svelte';
-	import AddNoteForm from '$lib/components/AddNoteForm.svelte';
+	// import AddNoteForm from '$lib/components/AddNoteForm.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
 	let notes = $state([
@@ -14,14 +14,14 @@
 		},
 		{
 			id: 2,
-			title: 'Kopi dan Inspirasi',
-			content: 'Menghabiskan sore di kafe favorit. Aroma kopi yang kuat memberiku ide-ide segar untuk proyek yang sedang aku kerjakan.',
+			title: 'Lorem Ipsum',
+			content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			date: '2026-04-21T15:30:00Z'
 		},
 		{
 			id: 3,
-			title: 'Melihat Senja di Pantai',
-			content: 'Senja hari ini begitu indah. Warna jingga yang memudar di ufuk timur membuatku merenung tentang betapa berharganya setiap detik.',
+			title: 'Lorem Ipsum',
+			content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			date: '2026-04-22T18:15:00Z'
 		}
 	]);
@@ -33,7 +33,7 @@
 
 <Navbar />
 
-<main class="flex-grow">
+<main class="grow">
 	<Hero />
 
 	<!-- Notes Grid -->
@@ -55,11 +55,11 @@
 	</section>
 
 	<!-- Add Note Form Section -->
-	<section class="bg-white py-24 sm:py-32">
+	<!-- <section class="bg-white py-24 sm:py-32">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<AddNoteForm onAdd={handleAddNote} />
 		</div>
-	</section>
+	</section> -->
 </main>
 
 <Footer />
