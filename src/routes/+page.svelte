@@ -9,7 +9,7 @@
 		{
 			id: 1,
 			title: 'Awal Perjalanan Baru',
-			content: 'Hari ini aku memutuskan untuk mulai mencatat setiap detail kecil dalam hidupku. Semoga blog ini menjadi saksi bisu pertumbuhanku.',
+			content: 'Hari ini aku memutuskan untuk mulai mencatat setiap detail kecil dari Vellysia. Semoga blog ini menjadi saksi bisu pertumbuhan Vellysia.',
 			date: '2026-04-20T10:00:00Z'
 		},
 		{
