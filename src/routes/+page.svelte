@@ -14,9 +14,9 @@
 		},
 		{
 			id: 2,
-			title: 'Lorem Ipsum',
-			content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-			date: '2026-04-21T15:30:00Z'
+			title: 'Vellysia bangun di siang hari',
+			content: 'Vellysia bangun di siang hari karena tadi malam tidur terlalu larut malam. Semoga Vellysia besok bisa bangun lebih pagi agar bisa menikmati pagi hari dengan lebih baik.',
+			date: '2026-04-25T12:55:00Z'
 		},
 		{
 			id: 3,
